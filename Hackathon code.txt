@@ -9,12 +9,7 @@
 	void init_adc();
 
 /*
-Abstract
---------
-The code was written for the STM32F0. The function of the code is to produce two PWM signals - with one being inverted.
-The PWM signal are produces using timer 2 at PB10 and PB11. The resulting singals have a 3.3V peak to peak voltage at a
-frequency of 100kHz.
-*/
+
 
 int main(void)
 {
